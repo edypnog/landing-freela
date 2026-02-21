@@ -386,10 +386,10 @@ export default function LandingPage() {
       </Section>
 
       <Section>
-        <SectionTitle>Precisa de atendimento?</SectionTitle>
+        <SectionTitle>Entre em contato já!</SectionTitle>
         <ButtonGroup style={{ justifyContent: "center" }}>
           <PrimaryButton href={whatsappLink}>
-            Falar no WhatsApp
+            WhatsApp
           </PrimaryButton>
           <SecondaryButton href="tel:5521981891097">
             Ligar Agora
