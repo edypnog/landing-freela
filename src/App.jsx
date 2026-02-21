@@ -424,9 +424,9 @@ export default function LandingPage() {
           <GalleryImage>
             <img src="/photo_6_2026-02-21_15-21-53.jpg" alt="Cuidado 6" />
           </GalleryImage>
-          <GalleryImage>
+          {/* <GalleryImage>
             <img src="/photo_7_2026-02-21_15-21-53.jpg" alt="Cuidado 7" />
-          </GalleryImage>
+          </GalleryImage> */}
           <GalleryImage>
             <img src="/photo_8_2026-02-21_15-21-53.jpg" alt="Cuidado 8" />
           </GalleryImage>
