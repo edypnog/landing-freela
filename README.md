@@ -1,8 +1,28 @@
-# React + Vite
+# 🩺 Landing Page – Ana Rute | Técnica de Enfermagem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page moderna, responsiva e profissional desenvolvida em **React + Vite + styled-components**, criada para apresentar os serviços da Técnica de Enfermagem **Ana Rute**.
 
-Currently, two official plugins are available:
+O projeto tem como foco:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Apresentação profissional
+- Layout limpo, moderno e totalmente responsivo
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- React
+- Vite
+- styled-components
+- lucide-react (ícones)
+
+---
+
+## 🎨 Personalização de Cor
+
+A cor principal do site pode ser alterada facilmente.
+
+No arquivo principal, basta modificar:
+
+```js
+const PRIMARY_COLOR = "#2563eb";
