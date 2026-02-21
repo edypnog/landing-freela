@@ -359,28 +359,28 @@ export default function LandingPage() {
 
         <GalleryGrid>
           <GalleryImage>
-            <img src="../public/photo_1_2026-02-21_15-21-53.jpg" alt="Cuidado 1" />
+            <img src="/photo_1_2026-02-21_15-21-53.jpg" alt="Cuidado 1" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_2_2026-02-21_15-21-53.jpg" alt="Cuidado 2" />
+            <img src="/photo_2_2026-02-21_15-21-53.jpg" alt="Cuidado 2" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_3_2026-02-21_15-21-53.jpg" alt="Cuidado 3" />
+            <img src="/photo_3_2026-02-21_15-21-53.jpg" alt="Cuidado 3" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_4_2026-02-21_15-21-53.jpg" alt="Cuidado 4" />
+            <img src="/photo_4_2026-02-21_15-21-53.jpg" alt="Cuidado 4" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_5_2026-02-21_15-21-53.jpg" alt="Cuidado 5" />
+            <img src="/photo_5_2026-02-21_15-21-53.jpg" alt="Cuidado 5" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_6_2026-02-21_15-21-53.jpg" alt="Cuidado 6" />
+            <img src="/photo_6_2026-02-21_15-21-53.jpg" alt="Cuidado 6" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_7_2026-02-21_15-21-53.jpg" alt="Cuidado 7" />
+            <img src="/photo_7_2026-02-21_15-21-53.jpg" alt="Cuidado 7" />
           </GalleryImage>
           <GalleryImage>
-            <img src="../public/photo_8_2026-02-21_15-21-53.jpg" alt="Cuidado 8" />
+            <img src="/photo_8_2026-02-21_15-21-53.jpg" alt="Cuidado 8" />
           </GalleryImage>
         </GalleryGrid>
       </Section>
