@@ -305,7 +305,7 @@ export default function LandingPage() {
 
           <ProfileImage>
             <img
-              src="../public/image.png"
+              src="/image.png"
               alt="Técnica de Enfermagem"
             />
           </ProfileImage>
