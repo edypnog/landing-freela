@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import { Phone, MessageCircle } from "lucide-react";
 
@@ -274,7 +274,52 @@ const Footer = styled.footer`
   color: #9ca3af;
 `;
 
+const ModalOverlay = styled.div`
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+`;
+
+const ModalContent = styled.div`
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+`;
+
+const CloseButton = styled.button`
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: none;
+  background: ${({ theme }) => theme.primary};
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+
+  &:hover {
+    opacity: 0.85;
+  }
+`;
+
 export default function LandingPage() {
+
+  const [showDiploma, setShowDiploma] = useState(false);
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
@@ -299,6 +344,9 @@ export default function LandingPage() {
 
               <SecondaryButton href="tel:5521981891097">
                 <Phone size={18} /> Ligar Agora
+              </SecondaryButton>
+              <SecondaryButton as="button" onClick={() => setShowDiploma(true)}>
+                Ver Diploma
               </SecondaryButton>
             </ButtonGroup>
           </div>
@@ -396,6 +444,17 @@ export default function LandingPage() {
           </SecondaryButton>
         </ButtonGroup>
       </Section>
+
+      {showDiploma && (
+        <ModalOverlay onClick={() => setShowDiploma(false)}>
+          <ModalContent onClick={(e) => e.stopPropagation()}>
+            <img src="/photo_2026-02-21_16-00-49.jpg" alt="Diploma Técnica de Enfermagem" />
+            <CloseButton onClick={() => setShowDiploma(false)}>
+              Fechar
+            </CloseButton>
+          </ModalContent>
+        </ModalOverlay>
+      )}
 
       <Footer>
         © {new Date().getFullYear()} Ana Rute Medeiros | Técnica de Enfermagem | COREN Ativo
