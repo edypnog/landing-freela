@@ -387,7 +387,7 @@ export default function LandingPage() {
       </Section>
 
       <Section>
-        <SectionTitle translate="no">Precisa de atendimento?</SectionTitle>
+        <SectionTitle translate="no">Precisa de atendimento especializado?</SectionTitle>
         <ButtonGroup style={{ justifyContent: "center" }}>
           <PrimaryButton href={whatsappLink}>
             Falar no WhatsApp
